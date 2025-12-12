@@ -36,7 +36,7 @@ export default function AudioPlayer() {
     <div className="fixed bottom-6 right-6 z-50">
       <audio
         ref={audioRef}
-        src="/audio/casamento.mp3"
+        src="https://res.cloudinary.com/dqycgrdjf/video/upload/v1765565360/casamento_ty3jio.mp3"
         loop
       />
 
