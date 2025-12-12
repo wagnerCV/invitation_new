@@ -65,7 +65,7 @@ export default function HeroSection() {
           >
             <div className="rounded-full border border-white/30 bg-black/20 px-8 py-3 backdrop-blur-sm">
               <p className="font-sans text-sm md:text-base font-light tracking-[0.2em] text-white uppercase">
-                Save the Date · {new Date(settings.wedding_date).toLocaleDateString('pt-PT').replace(/\//g, '.')} · {settings.wedding_time} · {settings.ceremony_address.split(',')[0].toUpperCase()}
+                Save the Date · {new Date(settings.wedding_date).toLocaleDateString('pt-PT').replace(/\//g, '.')} · {settings.wedding_time.substring(0, 5)} · {settings.ceremony_address.split(',')[0].toUpperCase()}
               </p>
             </div>
           </motion.div>
