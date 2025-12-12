@@ -36,7 +36,7 @@ export default function AudioPlayer() {
     <div className="fixed bottom-6 right-6 z-50">
       <audio
         ref={audioRef}
-        src="public/audio/casamento.mp3"
+        src="/audio/casamento.mp3"
         loop
       />
 
