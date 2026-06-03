@@ -36,7 +36,7 @@ export default function HeroSection() {
           className="
             h-full w-full object-cover
             object-[58%_center]
-            sm:object-[60%_center]
+            sm:object-[62%_center]
             md:object-center
           "
         />
