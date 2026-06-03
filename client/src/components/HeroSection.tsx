@@ -35,7 +35,7 @@ export default function HeroSection() {
           alt="Wedding background" 
           className="
             h-full w-full object-cover
-            object-[58%_center]
+            object-[54%_center]
             sm:object-[62%_center]
             md:object-center
           "
