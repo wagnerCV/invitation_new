@@ -24,16 +24,21 @@ export default function HeroSection() {
       {/* Background Image with Parallax */}
       <motion.div 
         style={{ y }}
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 overflow-hidden"
       >
-        <div className="absolute inset-0 bg-black/30 z-10" /> {/* Lighter overlay to match screenshot */}
+        <div className="absolute inset-0 bg-black/40 md:bg-black/30 z-10" />
         <motion.img 
-          initial={{ scale: 1.1 }}
+          initial={{ scale: 1.03 }}
           animate={{ scale: 1 }}
           transition={{ duration: 2 }}
           src="/images/hero-portal.jpg" 
-          alt="Terracotta Portal" 
-          className="h-full w-full object-cover"
+          alt="Wedding background" 
+          className="
+            h-full w-full object-cover
+            object-[66%_center]
+            sm:object-[63%_center]
+            md:object-center
+          "
         />
       </motion.div>
 
