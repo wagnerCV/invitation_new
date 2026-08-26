@@ -7,7 +7,8 @@ import StoryTimeline from "@/components/StoryTimeline";
 import DetailsSection from "@/components/DetailsSection";
 import MapSection from "@/components/MapSection";
 import DressCodeSection from "@/components/DressCodeSection";
-import RSVPSection from "@/components/RSVPSection";
+
+{/* import RSVPSection from "@/components/RSVPSection" */}
 
 import FinalBlessingSection from "@/components/FinalBlessingSection";
 import AudioPlayer from "@/components/AudioPlayer";
@@ -33,7 +34,7 @@ export default function Home() {
       <DetailsSection />
       <MapSection />
       <DressCodeSection />
-      <RSVPSection />
+      {/* <RSVPSection /> */}
       <FinalBlessingSection />
       <AudioPlayer />
     </main>
